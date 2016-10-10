@@ -66,7 +66,7 @@ class Model(dict):
         sql = 'insert into %s (%s) values (%s)' % (self.__table__, ','.join(fields), ','.join(params))
         print('SQL: %s' % sql)
         print('ARGS: %s' % str(args))
-
+        print('table name:%s'%self.__table__)
 # testing code:
 
 
