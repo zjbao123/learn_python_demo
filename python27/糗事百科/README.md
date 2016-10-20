@@ -6,6 +6,8 @@
 ├── qsbk.py               … 爬虫源码   
 ├── packet.py             … 打包源码
 └── README.md             … 说明文档
+
+
 打包程序执行方法：
 ```
 python packet.py py2exe
