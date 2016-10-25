@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 __author__ = 'zjbao123'
-
+import time
 
 def shell_sort(sort_list):
+    begin = time.clock()
     iter_len = len(sort_list)
     if iter_len < 2:
         return sort_list
@@ -20,7 +21,9 @@ def shell_sort(sort_list):
 
                     sort_list[k + gap] = key
         gap /= 2
-
+    end = time.clock()
+    print end - begin
     return sort_list
 
+print shell_sort([2,5,3,6,1,7,9,11,4])
 
