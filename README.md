@@ -4,15 +4,15 @@
 
 目前实现的demo有：
 
-python3.5：
----------
+## python3.5：
+
 
 图片转字符画
 
 用XML解析天气
 
-python2.7：
-------
+## python2.7：
+
 
 
 糗事百科小爬虫
@@ -31,8 +31,12 @@ simple DRM
 
 MD5加密登录
 
-show-me-the-code：
-------
+自动发送邮件
+
+定时任务
+
+## show-me-the-code：
+
 头像右上角加数字
 
 随机优惠码生成器
